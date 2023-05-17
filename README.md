@@ -1,7 +1,7 @@
 # Music Player ChatGPT plugin experiment
 
 ## read more here: 
-- [Music Player ChatGPT plugin]([https://sebbie.pl/openai-chatgpt-oauth-plugin-example-in-nodejs/](https://sebbie.pl/music-player-chatgpt-plugin/)
+- [Music Player ChatGPT plugin](https://sebbie.pl/music-player-chatgpt-plugin/)
 
 ## Setup
 const APP_PORT = process.env.APP_PORT || 3000;
