@@ -1,0 +1,25 @@
+# Music Player ChatGPT plugin experiment
+
+## read more here: 
+- [Music Player ChatGPT plugin]([https://sebbie.pl/openai-chatgpt-oauth-plugin-example-in-nodejs/](https://sebbie.pl/music-player-chatgpt-plugin/)
+
+## Setup
+const APP_PORT = process.env.APP_PORT || 3000;
+const APP_HOST = process.env.APP_HOST || 'localhost';
+const APP_PROTOCOL = process.env.APP_PROTOCOL || 'http://';
+const SONGS_LIMIT = 50; // limit returned list of songs (chatGPT plugin response limitations)
+
+## Running the Server
+- npm install
+- node app.js
+- The server will listen on port "APP_PORT if set or port 85. You can connect to the server using any web browser.
+
+## Current limitations:
+- Currently works only on MacOS
+- Only plays local content
+
+## How to use
+- ask chatGPT for list of available songs, for example: "Get me list of songs"
+- now you can ask fo more info: "Add year and Artists to this list (based on your knowledge)"
+- or just play one of this songs: "Play a song from 80's" or "Play a song: Bohemian Rhapsody"
+
