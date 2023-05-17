@@ -4,10 +4,10 @@
 - [Music Player ChatGPT plugin](https://sebbie.pl/music-player-chatgpt-plugin/)
 
 ## Setup
-const APP_PORT = process.env.APP_PORT || 3000;
-const APP_HOST = process.env.APP_HOST || 'localhost';
-const APP_PROTOCOL = process.env.APP_PROTOCOL || 'http://';
-const SONGS_LIMIT = 50; // limit returned list of songs (chatGPT plugin response limitations)
+- const APP_PORT = process.env.APP_PORT || 3000;
+- const APP_HOST = process.env.APP_HOST || 'localhost';
+- const APP_PROTOCOL = process.env.APP_PROTOCOL || 'http://';
+- const SONGS_LIMIT = 50; // limit returned list of songs (chatGPT plugin response limitations)
 
 ## Running the Server
 - npm install
