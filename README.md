@@ -3,6 +3,8 @@
 ## read more here: 
 - [Music Player ChatGPT plugin](https://sebbie.pl/music-player-chatgpt-plugin/)
 
+![Music Player](https://sebbie.pl/wp-content/uploads/2023/05/music_engineer.png)
+
 ## Setup
 - const APP_PORT = process.env.APP_PORT || 3000;
 - const APP_HOST = process.env.APP_HOST || 'localhost';
