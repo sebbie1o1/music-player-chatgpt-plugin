@@ -18,8 +18,15 @@
 - Currently works only on MacOS
 - Only plays local content
 
+## How to Set Up the Plugin with ChatGPT
+To use the plugin with ChatGPT, follow the steps in the "Develop your own plugin" section of the ChatGPT API documentation".
+You need to enter the plugin's URL to use it as a plugin (localhost:3000)
+After you've set up the plugin, you can use it through ChatGPT. 
+
 ## How to use
 - ask chatGPT for list of available songs, for example: "Get me list of songs"
 - now you can ask fo more info: "Add year and Artists to this list (based on your knowledge)"
 - or just play one of this songs: "Play a song from 80's" or "Play a song: Bohemian Rhapsody"
+
+
 
