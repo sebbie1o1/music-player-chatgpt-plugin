@@ -1,0 +1,18 @@
+{
+    "schema_version": "v1",
+    "name_for_human": "Music Player",
+    "name_for_model": "SongsMusicPlayer",
+    "description_for_human": "Plugin for playing songs and listing songs available in music library",
+    "description_for_model": "Plugin for playing songs and listing songs available in music library, you can play a song or list songs list",
+    "auth": {
+        "type": "none"
+    },
+    "api": {
+        "type": "openapi",
+        "url": "PLUGIN_HOSTNAME/openapi.yaml",
+        "is_user_authenticated": false
+    },
+    "logo_url": "PLUGIN_HOSTNAME/logo.png",
+    "contact_email": "contact@example.com",
+    "legal_info_url": "http://www.example.com/legal"
+}

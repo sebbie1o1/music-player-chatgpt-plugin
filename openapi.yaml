@@ -1,0 +1,43 @@
+openapi: 3.0.1
+info:
+    title: Music Player Plugin
+    description: A plugin that allows the user to play music using ChatGPT.".
+    version: "v1"
+servers:
+    - url: PLUGIN_HOSTNAME
+paths:
+    /music/list:
+        get:
+            operationId: getSongs
+            summary: Get the list of available songs
+            responses:
+                "200":
+                    description: OK
+                    content:
+                        application/json:
+                            schema:
+                                $ref: "#/components/schemas/getSongsResponse"
+    /music/play/{songTitle}:
+        get:
+            operationId: playSong
+            summary: Play a song
+            parameters:
+                - in: path
+                  name: songTitle
+                  schema:
+                      type: string
+                  required: true
+                  description: The title of the song to play
+            responses:
+                "200":
+                    description: OK
+components:
+    schemas:
+        getSongsResponse:
+            type: object
+            properties:
+                todos:
+                    type: array
+                    items:
+                        type: string
+                    description: The list of songs.
