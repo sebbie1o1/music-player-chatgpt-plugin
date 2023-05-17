@@ -14,7 +14,7 @@
 ## Running the Server
 - npm install
 - node app.js
-- The server will listen on port "APP_PORT if set or port 85. You can connect to the server using any web browser.
+- The server will listen on port "APP_PORT if set or port 3000. You can connect to the server using any web browser.
 
 ## Current limitations:
 - Currently works only on MacOS
