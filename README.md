@@ -28,7 +28,7 @@ After you've set up the plugin, you can use it through ChatGPT.
 ## How to use
 - ask chatGPT for list of available songs, for example: "Get me list of songs"
 - now you can ask fo more info: "Add year and Artists to this list (based on your knowledge)"
-- or just play one of this songs: "Play a song from 80's" or "Play a song: Bohemian Rhapsody"
+- or just play one of these songs: "Play a song from 80's" or "Play a song: Bohemian Rhapsody"
 
 
 
